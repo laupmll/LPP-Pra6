@@ -12,7 +12,6 @@ desc "Pruebas con rspec para ppt_clase2.rb. Ejecuta spec/ppt_spec.rb en formato 
 task :test do	#rspec
   #sh "rspec -Ilib spec/ppt_spec.rb" 
   sh "rspec -Ilib spec/ppt_spec.rb --format documentation" 
-  #sh "ruby -Ilib bin/main_ppt.rb tijeras"
 end
 
 desc "Pruebas con rspec para ppt_clase2.rb. Ejecuta spec/ppt_spec.rb en formato html"
